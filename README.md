@@ -30,3 +30,24 @@ O projeto finalizado (arquivo .py e arquivo com as frases em texto claro) está 
 * frases_decod.csv = Arquivo com as frases traduzidas;
 
 As frases que foram utilizadas como teste estão [nesta pasta](Docs) no arquivo de nome "Mensagens_morse.txt"
+
+## Projeto 2 - Análise exploratória
+
+Objetivo:
+
+Realizar a análise exploratória da base de voos de new-york para entender como se comportam os atrasos dos voos.
+
+A base a ser explorada contém a seguinte estrutura:
+
+* year,month,day: Date of departure
+* dep_time,arr_time: Departure and arrival times, format HMM or HHMM
+* dep_delay,arr_delay: Departure and arrival delays, in minutes. Negative times represent early departures/arrivals.
+* hour,minute : Time of departure broken in to hour and minutes
+* carrier: Two letter carrier abbreviation
+* tailnum: Plane tail number
+* flight: Flight number
+* origin,dest: Origin and destination.
+* air_time: Amount of time spent in the air
+* distance: Distance flown
+
+O projeto de desenvolvimento pode ser encontrado [nesta pasta](Scripts), no arquivo de nome "projeto_2.ipynb"
